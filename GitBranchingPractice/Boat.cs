@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace GitBranchingPractice
 {
-    internal class Airplane :Vehicle
+    internal class Boat : Vehicle
     {
-        public int NumOfWings { get; set; }
+        public string Captain { get; set; }
     }
 }

@@ -9,7 +9,9 @@ namespace GitBranchingPractice
     public abstract class Vehicle
     {
         public string Name { get; set; }
+        public string Manufacturer { get; set; }
         public int Year { get; set; }
+
         public virtual void Go()
         {
             Console.WriteLine($"{Name} is going");
